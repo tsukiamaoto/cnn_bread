@@ -22,7 +22,7 @@ if __name__ == "__main__":
   # 顯示模型結構
   # print(model.summary())
 
-  img_path = 'img5.jpg'
+  img_path = 'img2.jpg'
   img = image.load_img(img_path, target_size=(128, 128))
   x = image.img_to_array(img)
   x = np.expand_dims(x, axis=0)
